@@ -1,8 +1,10 @@
 import XCTest
 import SnapshotTesting
 import SnapshotTestingHEIC
+
 @testable import SnapshotTestingStitch
 
+#if os(iOS)
 final class SnapshotTestingStitchHEICTests: XCTestCase {
 
     let isRecording: Bool = false
@@ -128,3 +130,4 @@ final class SnapshotTestingStitchHEICTests: XCTestCase {
     }
 
 }
+#endif

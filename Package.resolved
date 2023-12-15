@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/alexey1312/SnapshotTestingHEIC.git",
         "state": {
           "branch": null,
-          "revision": "a282334d83b536212fc1a074f0a5a241256718f0",
-          "version": "1.2.1"
+          "revision": "77d47239adf4e6c714c31b1854ff7ca5ba072309",
+          "version": "1.4.0"
         }
       },
       {
@@ -15,8 +15,17 @@
         "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
         "state": {
           "branch": null,
-          "revision": "f29e2014f6230cf7d5138fc899da51c7f513d467",
-          "version": "1.10.0"
+          "revision": "59b663f68e69f27a87b45de48cb63264b8194605",
+          "version": "1.15.1"
+        }
+      },
+      {
+        "package": "swift-syntax",
+        "repositoryURL": "https://github.com/apple/swift-syntax.git",
+        "state": {
+          "branch": null,
+          "revision": "6ad4ea24b01559dde0773e3d091f1b9e36175036",
+          "version": "509.0.2"
         }
       }
     ]

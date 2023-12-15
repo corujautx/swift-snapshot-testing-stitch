@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 public struct StitchStyle {
@@ -65,3 +66,4 @@ public struct StitchStyle {
     }
     
 }
+#endif

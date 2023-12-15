@@ -7,6 +7,7 @@ let package = Package(
     name: "SnapshotTestingStitch",
     platforms: [
         .iOS(.v13),
+        .macOS(.v10_15)
     ],
     products: [
         .library(
@@ -17,10 +18,10 @@ let package = Package(
     dependencies: [
         .package(name: "swift-snapshot-testing",
                  url: "https://github.com/pointfreeco/swift-snapshot-testing.git",
-                 from: "1.10.0"),
+                 from: "1.15.0"),
         .package(name: "SnapshotTestingHEIC",
                  url: "https://github.com/alexey1312/SnapshotTestingHEIC.git",
-                 from: "1.2.1"),
+                 from: "1.4.0"),
     ],
     targets: [
         .target(

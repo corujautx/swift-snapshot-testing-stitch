@@ -2,6 +2,7 @@ import XCTest
 import SnapshotTesting
 @testable import SnapshotTestingStitch
 
+#if os(iOS)
 final class SnapshotTestingStitchTests: XCTestCase {
     
     let isRecording: Bool = false
@@ -121,3 +122,4 @@ final class SnapshotTestingStitchTests: XCTestCase {
     }
     
 }
+#endif

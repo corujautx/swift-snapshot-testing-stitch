@@ -1,6 +1,8 @@
-import UIKit
 import SnapshotTesting
 import SnapshotTestingHEIC
+
+#if os(iOS)
+import UIKit
 
 public extension Snapshotting where Format == UIImage {
     /// Stitches multiple visual snapshot strategies into a single image asset.
@@ -146,3 +148,5 @@ public extension Snapshotting where Format == UIImage {
         }
     }
 }
+
+#endif

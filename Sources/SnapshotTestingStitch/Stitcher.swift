@@ -1,3 +1,4 @@
+#if os(iOS)
 import UIKit
 
 struct ImageStitcher {
@@ -146,3 +147,4 @@ struct ImageStitcher {
     }
     
 }
+#endif
